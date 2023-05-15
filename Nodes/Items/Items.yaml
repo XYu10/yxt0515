@@ -56,3 +56,20 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
+- Name: CheckboxEqual
+  Type: ObjectLibraryItem
+  Children:
+  - Name: CheckboxEqual
+    Id: g=34a3ba6872d4e785198f5d9c79aa07c9
+    Supertype: CheckBox
+    ReferenceType: HasComponent
+    Children:
+    - Name: Checked
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Checkbox1"}
