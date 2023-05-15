@@ -1,0 +1,16 @@
+Name: Items
+Type: FolderType
+Children:
+- Name: Button1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Button1
+    Id: g=04a522cbd54ab9cfa63de9ac8149924d
+    Supertype: Button
+    ReferenceType: HasComponent
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Button1"}
