@@ -14,3 +14,10 @@ Children:
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"Button1"}
+- Name: NewNetLogic
+  Type: ObjectLibraryItem
+  Children:
+  - Name: NewNetLogic
+    Id: g=f29397e8b4979d4e278f8bdcc3d70a67
+    Supertype: NetLogic
+    ReferenceType: HasComponent
